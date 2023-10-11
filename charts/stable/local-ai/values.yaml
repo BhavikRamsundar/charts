@@ -41,6 +41,7 @@ localai:
   # Specify a build type. Available: cublas, openblas, clblas, hipblas.
   build_type: "openblas"
   debug: false
+  rebuild: false
   cors: true
   cors_allow_origins: "*"
   galleries: []
