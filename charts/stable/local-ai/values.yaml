@@ -38,7 +38,7 @@ service:
         port: 8080
 
 localai:
-  # Specify a build type. Available: cublas, openblas, clblas.
+  # Specify a build type. Available: cublas, openblas, clblas, hipblas.
   build_type: "openblas"
   debug: false
   cors: true
